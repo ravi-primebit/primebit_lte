@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1526189418 source:/home/ankush/Desktop/dropbox/lte/primebit_lte/main.cpp
+	<iostream>
+	"rrc/inc/rrc.h"
+
+1526189435 /home/ankush/Desktop/dropbox/lte/primebit_lte/rrc/inc/rrc.h
+	<stdint-gcc.h>
+
+1526190411 source:/home/ankush/Desktop/dropbox/lte/primebit_lte/rrc/src/rrc.cpp
+	<iostream>
+	"../inc/rrc.h"
+	"../../rlc/inc/rlc.h"
+
+1526190331 source:/home/ankush/Desktop/dropbox/lte/primebit_lte/mac/src/mac.cpp
+	<iostream>
+	"../../rrc/inc/rrc.h"
+	"../../rlc/inc/rlc.h"
+	"../inc/mac.h"
+	"../../phy/inc/physical.h"
+
+1526164134 /home/ankush/Desktop/dropbox/lte/primebit_lte/rlc/inc/rlc.h
+
+1526164321 /home/ankush/Desktop/dropbox/lte/primebit_lte/mac/inc/mac.h
+
+1526164348 /home/ankush/Desktop/dropbox/lte/primebit_lte/phy/inc/physical.h
+
+1526164879 source:/home/ankush/Desktop/dropbox/lte/primebit_lte/phy/src/physical.cpp
+	<iostream>
+	"../../rrc/inc/rrc.h"
+	"../../rlc/inc/rlc.h"
+	"../../mac/inc/mac.h"
+	"../inc/physical.h"
+
+1526164803 source:/home/ankush/Desktop/dropbox/lte/primebit_lte/rlc/src/rlc.cpp
+	<iostream>
+	"../../rrc/inc/rrc.h"
+	"../inc/rlc.h"
+	"../../mac/inc/mac.h"
+
